@@ -404,7 +404,7 @@ export default class ForEachEvent extends React.Component<
                     }}
                     disabled={this.props.disabled}
                   >
-                    <option value="any">{i18n._(t`(any order)`)}</option>
+                    <option value="any">{i18n._(t`(default order)`)}</option>
                     <option value="orderBy">{i18n._(t`ordered by`)}</option>
                     <optgroup label="Examples">
                       <option value={`${objectPrefix}.SomeVariable`}>
